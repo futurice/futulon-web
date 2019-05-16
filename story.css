@@ -1,0 +1,118 @@
+/* Story */
+
+.center {
+  text-align: center;
+}
+
+.page--story {
+  font-family: "Futurice Monospaced", "Futurice Regular", sans-serif;
+}
+
+.page--story a.link {
+  color: #000;
+}
+.page--story a.link:hover {
+  color: #fd5f00;
+}
+
+.page--story .header .brand {
+  position: relative;
+  margin: 20px 0 0;
+  top: 70px;
+  width: 100px;
+}
+
+.section--story {
+  background: #000;
+  min-height: 60vh;
+}
+
+.section--story .section--info__content {
+  min-height: 60vh;
+}
+
+.section--story .container h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+.section--story .container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section--story-text {
+  color: #333;
+}
+
+.section--story-text .container {
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.section--story-text p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.section--story__bg {
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background-image: url(./assets/city.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  /*animation: scale-fade-in 3s linear;*/
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+.page--story .section--intro {
+  background: #fff;
+}
+
+.section--story-text .quote {
+  color: #fd5f00;
+  font-family: "Futurice Regular", sans-serif;
+  font-weight: bold;
+  font-size: 2.3em;
+  line-height: 1.2;
+}
+.quote span {
+  margin-top: 5px;
+  display: block;
+  font-size: 18px;
+  font-family: "Futurice Monospaced", "Futurice Regular", sans-serif;
+  color: #333;
+  font-weight: normal;
+}
+
+.page--story blockquote {
+  margin-top: 30px;
+  padding: 20px;
+  border-left: 5px solid #eee;
+  color: #888;
+}
+
+.paragraph {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  .page--story .header .brand {
+    top: 40px;
+    width: 80px;
+  }
+}

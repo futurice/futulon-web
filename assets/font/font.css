@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Futurice Regular";
+  src: url("Futurice Bold.eot"); /* IE9 Compat Modes */
+  src: url("Futurice Bold.eot?#iefix") format("embedded-opentype"),
+    url("Futurice Bold.woff") format("woff"),
+    url("Futurice Bold.ttf") format("truetype"),
+    url("Futurice Bold.svg#de35ca2083c29d287d27cb47808654df") format("svg"); /* Legacy iOS */
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Futurice Regular";
+  src: url("Futurice Regular.eot"); /* IE9 Compat Modes */
+  src: url("Futurice Regular.eot?#iefix") format("embedded-opentype"),
+    url("Futurice Regular.woff") format("woff"),
+    url("Futurice Regular.ttf") format("truetype"),
+    url("Futurice Regular.svg#2fc95a16d47335df841ce543b095cbd2") format("svg"); /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Futurice Monospaced";
+  src: url("Futurice-Monospaced.eot");
+  src: url("Futurice-Monospaced.eot?#iefix") format("embedded-opentype"),
+    url("Futurice-Monospaced.woff2") format("woff2"),
+    url("Futurice-Monospaced.woff") format("woff"),
+    url("Futurice-Monospaced.svg#Futurice-Monospaced") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

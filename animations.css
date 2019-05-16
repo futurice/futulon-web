@@ -1,0 +1,52 @@
+@keyframes slide-up {
+  from {
+    transform: rotate(0deg) translate3d(0, 100%, 0);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes floater {
+  from {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+    filter: drop-shadow(0 20px 20px rgba(51, 33, 0, 0.4));
+  }
+  to {
+    transform: rotate(0deg) translate3d(0, -15px, 0);
+    filter: drop-shadow(0 50px 40px rgba(51, 33, 0, 0.3));
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes drop-in {
+  from {
+    transform: translate3d(0, -30px, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes scale-fade-in {
+  from {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+}
