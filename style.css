@@ -92,7 +92,7 @@ h4 {
   top: 0;
   bottom: 0;
   z-index: 1;
-  background-image: url(./assets/robot.png), url(./assets/gif/face-fade.gif);
+  background-image: url(./assets/planet.png), url(./assets/gif/face-fade.gif);
   background-size: auto 73%, auto 90%;
   background-repeat: no-repeat;
   background-position: 50% 24%, 47% 0%;
